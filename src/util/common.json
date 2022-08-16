@@ -1,5 +1,5 @@
 {
   "roomNumber": "Habitación",
-  "guestName": "Nombre",
-  "clientNotFound": "No se encontró el cliente"
+  "guestName": "Nombres Huespedes",
+  "clientNotFound": "No se encontró huespedes en la habitación"
 }

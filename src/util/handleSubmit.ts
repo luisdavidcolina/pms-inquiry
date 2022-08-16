@@ -3,6 +3,7 @@ import GuestSearch from '@/types/GuestSearch'
 
 const handleSubmit = async (guestSearch: GuestSearch) => {
   try {
+    if (guestSearch.roomNumber === '') return 'No se especificó habitación'
     const response = await axios.get(`/api/rooms/${guestSearch.roomNumber}`)
     const customer = response.data[0]
     const { nombre_cliente, apellido_cliente } = customer

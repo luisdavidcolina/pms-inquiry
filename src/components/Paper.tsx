@@ -1,10 +1,8 @@
 import { FC } from 'react'
 const Paper: FC = ({ children }) => {
   return (
-    <div style={{padding: '30px', minWidth: '700px'}}>
-      <div>
+    <div className="bg-white flex" style={{padding: '30px', minWidth: '800px'}}>
         {children}
-      </div>
     </div>
   )
 }

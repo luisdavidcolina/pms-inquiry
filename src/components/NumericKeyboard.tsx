@@ -16,7 +16,7 @@ const NumericKeyboard = (props: NumericKeyboardProps) => {
         <div key={i}>
           {number.map((subNumber, j) => (
             <button
-              className="btn btn-sm"
+              className="btn  btn-lg m-1 btn-outline"
               key={j}
               onClick={() => {
                 text(subNumber)
